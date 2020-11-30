@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost Language="C#" Debug="true"
+    Service="TD.BCDH.THAIBINH.BCDHTBService, TD.BCDH.THAIBINH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5f5141aeeb1481fd"
+    CodeBehind="BCDHTBService.svc.cs"
+    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressWebServiceHostFactory,
+    Microsoft.SharePoint.Client.ServerRuntime, Version=15.0.0.0, Culture=neutral,
+    PublicKeyToken=71e9bce111e9429c" %>
